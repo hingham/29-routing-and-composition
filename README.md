@@ -1,42 +1,55 @@
 ![CF](http://i.imgur.com/7v5ASc8.png) LAB
 =================================================
 
-## Project Name
+## Routing & Composition
 
 ### Author: Student/Group Name
 
 ### Links and Resources
-* [repo](http://xyz.com)
-* [travis](http://xyz.com)
-* [back-end](http://xyz.com)
-* [front-end](http://xyz.com)
+* [repo](https://github.com/hingham/29-routing-and-composition)
+* [travis] (http://xyz.com)
 
-### Modules
-#### `modulename.js`
-##### Exported Values and Methods
+### Labs: 
+[lab 1, 2 & 3 - modular](https://codesandbox.io/s/2o04lkyz2y)
+Description: 
 
-###### `foo(thing) -> string`
-Usage Notes or examples
+Renders two links.
+Shows content when 'code' is clicked.
+Renders content as the children of a details component.
+Renders content as classes, and a functionals
 
-###### `bar(array) -> array`
-Usage Notes or examples
+#### Modules lab 1, 2, 3
+components/container.js
+components/detail.js
+components/header.js
+components/story.js
 
-### Setup
-#### `.env` requirements
-* `PORT` - Port Number
-* `MONGODB_URI` - URL to the running mongo instance/db
+else.js
+if.js
+then.js
 
-#### Running the app
-* `npm start`
-* Endpoint: `/foo/bar/`
-  * Returns a JSON object with abc in it.
-* Endpoint: `/bing/zing/`
-  * Returns a JSON object with xyz in it.
+functional/detail.js
+functional/header.js
+functional/story.js
+
+
+[lab 1, 2 & 3 - modal](https://codesandbox.io/s/j4mvv62v95)
+Description: 
+* 'Open' Toggles a modal when clicked
+* Displays the names of all the starwars characters when the modal is opened
+* State gets passed down with props to the Dashboard
+* Modal renders the list of characters as children
+
+##### Modules lab 4
+dashboard.js
+form.js
+modal.js
+
 
 #### Tests
-* How do you run tests?
-* What assertions were made?
-* What assertions need to be / should be made?
+* npm test
+* What assertions were made: check snapshot, test state change
+
 
 #### UML
-Link to an image of the UML for your application and response to events
+![image]
